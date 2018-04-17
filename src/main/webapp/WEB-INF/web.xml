@@ -19,7 +19,7 @@
   </context-param>
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>kr.or.hoseo.springproject.chapter4.config.AppConfig</param-value>
+    <param-value>kr.or.hoseo.kkulmat.config.AppConfig</param-value>
   </context-param>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -33,7 +33,7 @@
     </init-param>
     <init-param>
       <param-name>contextConfigLocation</param-name>
-      <param-value>kr.or.hoseo.springproject.chapter4.config.AppConfig</param-value>
+      <param-value>kr.or.hoseo.kkulmat.config.AppConfig</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
